@@ -85,6 +85,7 @@ in our case, Preset role.
 You can use the below command to set up this access
 
     ```sql
+    -- Use an admin role
     USE ROLE ACCOUNTADMIN;
     CREATE ROLE IF NOT EXISTS REPORTER;
     CREATE USER IF NOT EXISTS PRESET
