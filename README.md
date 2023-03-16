@@ -84,7 +84,7 @@ in our case, Preset role.
 
 You can use the below command to set up this access
 
-    ```sql
+```sql
     -- Use an admin role
     USE ROLE ACCOUNTADMIN;
     CREATE ROLE IF NOT EXISTS REPORTER;
@@ -106,9 +106,11 @@ You can use the below command to set up this access
     GRANT SELECT ON FUTURE TABLES IN SCHEMA AIRBNB.DEV TO ROLE REPORTER;
     GRANT SELECT ON FUTURE VIEWS IN SCHEMA AIRBNB.DEV TO ROLE REPORTER;
 
-    ```
+```
 
 ![](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/f4973f3a-b7e2-4de7-bcfe-bef0a5a84edf.gif?ClientID=vimeo-core-prod&Date=1678973621&Signature=bb7365d4fcbf97c83d651e0c784374c445dc3ec0)
+
+
 
 ### DBT workflow
 ![](https://github.com/judeleonard/Airbnb_analytics/blob/dev/assets/dbt_workflow.png)
